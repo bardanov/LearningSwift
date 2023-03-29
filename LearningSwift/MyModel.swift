@@ -9,6 +9,6 @@ import Foundation
 
 struct Menu: Identifiable, Decodable {
     var id:UUID?
-    var name:String
+    var name:String = "My name"
     var image:String
 }
